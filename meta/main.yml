@@ -1,0 +1,30 @@
+---
+
+galaxy_info:
+  author: Nho Luong
+  description: Manage sensitive data with Docker secrets.
+  min_ansible_version: 2.1
+
+  platforms:
+    - name: EL
+      versions:
+        - 7
+    - name: Ubuntu
+      versions:
+        - trusty
+        - utopic
+        - vivid
+        - wily
+        - xenial
+    - name: Debian
+      versions:
+        - etch
+        - jessie
+  galaxy_tags:
+    - docker
+    - swarm
+    - docker-secrets
+    - credentials
+    - docker-swarm
+
+dependencies: []
